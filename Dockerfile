@@ -2,6 +2,7 @@ FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH $PATH:/usr/local/nginx/sbin
+ENV SITENAME 52.26.185.158:1935
 
 EXPOSE 1935
 EXPOSE 80
